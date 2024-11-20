@@ -9,11 +9,13 @@ import pandas as pd
 import csv
 from datetime import datetime
 
+t.title("Prompt Generation App")
+
 # Sample lists for topics and subtopics
 topics = ["Technology", "Health", "Education", "Business"]
 subtopics = {
     "Technology": ["AI", "Cybersecurity", "Blockchain"],
-    "Health": ["Nutrition", "Exercise", "Mental Health"],
+    "Health": ["Nutrition", "Exercise", "Mental Health", "Clinics and Hospitals"],
     "Education": ["Online Learning", "STEM", "Early Childhood"],
     "Business": ["Marketing", "Finance", "Entrepreneurship"]
 }
